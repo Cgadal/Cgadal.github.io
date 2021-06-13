@@ -129,6 +129,7 @@ input, select, textarea {
 	h2 {
 		font-size: 2em;
 		letter-spacing: -1px;
+		padding-bottom: 0.5em
 	}
 
 		h2.alt {
@@ -146,6 +147,7 @@ input, select, textarea {
 
 	header {
 		margin: 0 0 2em 0;
+		text-align: center;
 	}
 
 		header > p {
@@ -205,7 +207,7 @@ input, select, textarea {
 	}
 
 	p, ul, ol, dl, table {
-		margin-bottom: 2em;
+		margin-bottom: 1em;
 	}
 
 	br.clear {
@@ -1866,6 +1868,18 @@ input, select, textarea {
 			border: 0;
 		}
 
+/* Publication list */
+
+ol.publication-list {
+	padding-top: .5em;
+}
+
+ol.publication-list a {
+	font-weight: 400;
+	color: inherit;
+	}
+
+
 /* Form */
 
 	form label {
@@ -2290,10 +2304,14 @@ input, select, textarea {
 			}
 
 			#main > section.three {
-				background-color: #ecf1f1;
+				background-color: #f2f7f7	;
 			}
 
 			#main > section.four {
+				background-color: #ecf1f1;
+			}
+
+			#main > section.five {
 				background-color: #e8edec;
 			}
 

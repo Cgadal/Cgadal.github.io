@@ -82,6 +82,7 @@
 
 									$nav_a.removeClass('active');
 									$this.addClass('active');
+									// $this.addClass('active-locked');
 
 								}
 

@@ -1870,11 +1870,11 @@ input, select, textarea {
 
 /* Publication list */
 
-ol.publication-list {
+ul.publication-list, ol.publication-list {
 	padding-top: .5em;
 }
 
-ol.publication-list a {
+ul.publication-list, ol.publication-list a {
 	font-weight: 400;
 	color: inherit;
 	}

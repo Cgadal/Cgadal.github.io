@@ -27,7 +27,7 @@ section, summary, time, mark, audio, video {
 	vertical-align: baseline;}
 
 article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+footer, header, hgroup, menu, nav, section{
 	display: block;}
 
 body {
@@ -71,6 +71,11 @@ input, select, textarea {
 	-webkit-appearance: none;
 	-ms-appearance: none;
 	appearance: none;
+}
+
+video {
+  display: block;
+  margin: auto;
 }
 
 /* Basic */
@@ -269,6 +274,7 @@ input, select, textarea {
 		flex-wrap: wrap;
 		box-sizing: border-box;
 		align-items: stretch;
+		margin-bottom: 1em
 	}
 
 		.row > * {
@@ -1879,7 +1885,6 @@ ul.publication-list, ol.publication-list a {
 	color: inherit;
 	}
 
-
 /* Form */
 
 	form label {
@@ -2027,12 +2032,12 @@ ul.publication-list, ol.publication-list a {
 /* Item */
 
 	.item {
-		box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);
+		box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.1);
 		margin-bottom: 40px;
 	}
 
 		.item header {
-			background: #fff;
+			/* background: #fff; */
 			margin: 0;
 			padding: 1em 0 1em 0;
 			font-size: 0.8em;

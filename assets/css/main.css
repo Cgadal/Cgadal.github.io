@@ -2294,7 +2294,7 @@ ul.publication-list, ol.publication-list a {
 					}
 
 			#main > section.cover {
-				padding: 10em 0;
+				padding: 3em 0 8em 0;
 				background-size: cover;
 				background-position: center center;
 			}

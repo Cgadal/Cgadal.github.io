@@ -163,8 +163,13 @@ video {
 		margin: 2em 0 0 0;
 	}
 
-	strong, b {
+	b {
 		font-weight: 300;
+		color: #666;
+	}
+
+	strong {
+		font-weight: 400;
 		color: #666;
 	}
 
